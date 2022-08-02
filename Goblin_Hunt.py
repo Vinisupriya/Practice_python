@@ -11,7 +11,7 @@ goblin_position = random.randint(1, number_of_doors)
 keep_trying = True
 # Main game loop
 while keep_trying:
-  guessed_position = input("Can you guess where the goblin is hiding? ")
+
   guessed_position = int(guessed_position)
   if guessed_position == goblin_position:  # If player guesses correctly
     print("Well done. You've found the goblin.")

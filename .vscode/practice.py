@@ -41,15 +41,16 @@ def find_names_starting_with():
     result = []
     for name in list_of_names:
         #name = list_of_names[0]
-        if name[0] == "A":
+        if name[0] == "P":
             result.append(name)
             
     return result #Note indentation level for the return statement. It’s part of the def block but not part of the for or if blocks. Therefore it only needs one indent.
 
 result = find_names_starting_with()
 print(result)
-
 """
+
+
 
 
 

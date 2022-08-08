@@ -1,0 +1,9 @@
+def make_negative( number ):
+    if number < 0:
+        print(number*-1)
+    else:
+        print(number)
+    return number
+
+negative= make_negative(-5)
+print(negative)

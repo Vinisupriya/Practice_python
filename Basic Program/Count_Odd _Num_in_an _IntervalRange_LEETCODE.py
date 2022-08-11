@@ -6,7 +6,7 @@
 #CODE
 low =1
 high=10
-k=[]
+k=0
 for i in range(low,high+1):
     if i%2 == 0:
         continue

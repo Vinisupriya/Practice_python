@@ -1,12 +1,12 @@
 # without using power function
-n = 153  # or n=int(input()) -> taking input from user
-s = n  # assigning input value to the s variable
+num = 153  # or n=int(input()) -> taking input from user
+s = num  # assigning input value to the s variable
 b = len(str(n))
 sum1 = 0
 while n != 0:
-    r = n % 10
+    r = num % 10
     sum1 = sum1+(r**b)
-    n = n//10
+    num = num//10
 if s == sum1:
     print("The given number", s, "is armstrong number")
 else:

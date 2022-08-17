@@ -3,7 +3,7 @@
 '''file = open("vini.txt" ,"r" )
 print(file.read())'''
 
-# Write a file
+# Write a file With TRY AND EXPECT
 
 try:
     file = open("vini.txt" ,"w" )

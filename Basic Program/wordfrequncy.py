@@ -1,4 +1,5 @@
 # Find duplicat words and frequency count
+# without using sort function
 sentence = 'Hi vini vini and suvetha Are are worst friends'
 str= sentence.lower().split()
 #str=sentence.split( )

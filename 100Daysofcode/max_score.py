@@ -1,5 +1,6 @@
 student_scores = input("Input a list of student scores ").split()
 max=0
+#withot using max fuction
 for n in range(0, len(student_scores)):
   student_scores[n] = int(student_scores[n])
 for score in student_scores:

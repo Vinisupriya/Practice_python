@@ -1,4 +1,4 @@
-str= 'Hi Vini Vini and Suvetha Are are worst friends Madam Madam'
+str= 'Hi Vini Vini and Suvetha Are are  both Bothu worst friends Madam Madam'
 str1= str.lower().split()
 print (str1)
 str2=[]

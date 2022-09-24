@@ -1,5 +1,5 @@
 #Treasure Island Game
-#using mutiple if stmt
+#using mutiple if stmt and elif
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
 

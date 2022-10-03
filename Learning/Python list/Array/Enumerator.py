@@ -10,7 +10,8 @@ for count, ele in enumerate(l1,100):
 101 sleep
 102 pray"""
 
-# enumerate function in loops
+# enumerate function in loops 
+#lp
 l1 = ["eat", "sleep", "repeat"]
   
 # printing the tuples in object directly

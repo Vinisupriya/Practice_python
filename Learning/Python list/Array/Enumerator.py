@@ -9,7 +9,7 @@ for count, ele in enumerate(l1,100):
 100 eat
 101 sleep
 102 pray"""
-
+#567gew day
 # enumerate function in loops 
 #lp
 l1 = ["eat", "sleep", "repeat"]

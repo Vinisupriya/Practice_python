@@ -45,3 +45,20 @@
         return true
   
     return false
+
+
+    nums= [1,2,3,4,]
+    
+#using Function
+
+def containsDuplicate(nums):
+    map = {}
+    for i in nums:
+        if i not in map:
+            map[i] = True
+        else:
+            return True
+    return False
+
+result = containsDuplicate(nums)
+print(result)

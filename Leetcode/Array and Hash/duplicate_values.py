@@ -1,6 +1,6 @@
 // Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
 
-// Example 1:
+'''Example 1:
 
 // Input: nums = [1,2,3,1]
 // Output: true
@@ -33,7 +33,7 @@
 // map = { 4: "true', 5: true, 6: true, 7:true, 2:true,}
 // map = { 1: true, 8: true, ...100:true}
 
-
+'''
 
   def containsDuplicate(nums):
     map = {}
